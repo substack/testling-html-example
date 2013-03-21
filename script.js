@@ -8,5 +8,5 @@ equal(text(document.querySelector('#c'), 'C'));
 
 function text(elem) { return elem.textContent || elem.innerText }
 function equal (a, b) {
-    console.log((a === b ? 'ok' : 'not ok') + (++ assertion));
+    console.log((a === b ? 'ok' : 'not ok') + ' ' + (++ assertion));
 }
